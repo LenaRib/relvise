@@ -1,2 +1,1 @@
-# relvise
-https://lenarib.github.io/relvise/
+[Relvise](https://lenarib.github.io/relvise/) - landing page with adaptive layout, BEM
