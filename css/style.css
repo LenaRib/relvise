@@ -138,7 +138,7 @@ body {
   }
 }
 
-/*------ PAIGE ------*/
+/*------ PAGE ------*/
 
 .page__services {
   margin: -111px 0 0 0;
@@ -151,6 +151,31 @@ body {
 }
 .page__main-block {
 }
+
+.page__advantages {
+}
+
+/*------ HEADER BLOCK ------*/
+.header-block {
+  text-align: center;
+
+  letter-spacing: 0.2px;
+}
+.header-block__title {
+  font-weight: 700;
+  line-height: 142%;
+  font-size: 40px;
+}
+.header-block__title :not(:last-child) {
+  margin: 0 0 10px 0;
+}
+.header-block__sub-title {
+  color: #737373;
+  line-height: 142%;
+  tab-size: 14px;
+  font-weight: 500;
+}
+
 .main-block {
   position: relative;
 }
@@ -316,6 +341,39 @@ body {
   color: #737373;
   line-height: 142%;
 }
+
+/*------ ADVANTAGES ------*/
+
+.advantages {
+  padding: 80px 0;
+}
+.advantages__container {
+}
+._container {
+}
+.advantages__header {
+}
+
+.advantagers__body {
+  margin: 0 -15px;
+  display: flex;
+}
+.advantagers__column {
+  padding: 0 15px;
+  flex: 0 1 25%;
+}
+.advantagers__item {
+  background-color: #fff;
+  padding: 30px 40px;
+  text-align: center;
+}
+.advantagers__icon {
+}
+.advantagers__value {
+}
+.advantagers__text {
+}
+
 /*------ FOOTER ------*/
 
 .footer {
