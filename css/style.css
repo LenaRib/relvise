@@ -40,6 +40,7 @@ body {
   font-size: 15px;
   line-height: 1;
   font-weight: 500;
+  background: #fafafa;
 }
 
 .wrapper {
@@ -172,7 +173,7 @@ body {
 .header-block__sub-title {
   color: #737373;
   line-height: 142%;
-  tab-size: 14px;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -364,14 +365,24 @@ body {
 }
 .advantagers__item {
   background-color: #fff;
-  padding: 30px 40px;
+  padding: 30px;
   text-align: center;
+  font-weight: 700;
+}
+.advantagers__item > *:not(:last-child) {
+  margin: 0px 0px 10px 0px;
 }
 .advantagers__icon {
 }
 .advantagers__value {
+  font-size: 40px;
+  line-height: 142%;
 }
 .advantagers__text {
+  color: #737373;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.1px;
 }
 
 /*------ FOOTER ------*/
