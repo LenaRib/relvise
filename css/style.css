@@ -122,8 +122,7 @@ body {
   flex-wrap: wrap;
   display: flex;
 }
-.menu__item {
-}
+
 .menu__item:not(:last-child) {
   margin: 0 21px 0 0;
 }
@@ -150,23 +149,32 @@ body {
 .page {
   flex: 1 1 auto;
 }
-.page__main-block {
-}
-
-.page__advantages {
-}
 
 /*------ HEADER BLOCK ------*/
 .header-block {
   text-align: center;
-
   letter-spacing: 0.2px;
+  margin: 0px 0px 50px 0px;
 }
 .header-block__title {
   font-weight: 700;
   line-height: 142%;
   font-size: 40px;
+  margin: 0px 0px 10px 0px;
 }
+
+@media (max-width: 992px) {
+  .header-block__title {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-block__title {
+    font-size: 35px;
+  }
+}
+
 .header-block__title :not(:last-child) {
   margin: 0 0 10px 0;
 }
@@ -277,14 +285,6 @@ body {
 
 /*------ SERVICES ------*/
 
-.services {
-}
-.services__container {
-}
-
-.services__body {
-}
-
 @media (min-width: 670px) {
   .services__body {
     margin: 0 -15px -30px;
@@ -348,21 +348,58 @@ body {
 .advantages {
   padding: 80px 0;
 }
+
+@media (max-width: 992px) {
+  .advantages {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .advantages {
+    padding: 30px 0;
+  }
+}
+
 .advantages__container {
 }
 ._container {
 }
 .advantages__header {
+  margin: 0px 0px 50px 0px;
+}
+
+@media (max-width: 767px) {
+  .advantages__header {
+    margin: 0px 0px 25px 0px;
+  }
 }
 
 .advantagers__body {
-  margin: 0 -15px;
+  margin: 0 -15px -30px;
   display: flex;
+  flex-wrap: wrap;
 }
 .advantagers__column {
   padding: 0 15px;
   flex: 0 1 25%;
+  margin: 0 0 30px 0;
 }
+
+@media (max-width: 1020px) {
+  .advantagers__column {
+    padding: 0 15px;
+    flex: 0 1 50%;
+  }
+}
+
+@media (max-width: 560px) {
+  .advantagers__column {
+    padding: 0 15px;
+    flex: 0 1 100%;
+  }
+}
+
 .advantagers__item {
   background-color: #fff;
   padding: 30px;
@@ -373,6 +410,10 @@ body {
   margin: 0px 0px 10px 0px;
 }
 .advantagers__icon {
+  height: 48px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 .advantagers__value {
   font-size: 40px;
