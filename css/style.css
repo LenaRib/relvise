@@ -146,6 +146,9 @@ body {
   z-index: 2;
 }
 
+.page__practice {
+}
+
 .page {
   flex: 1 1 auto;
 }
@@ -188,8 +191,7 @@ body {
 .main-block {
   position: relative;
 }
-.main-block__container {
-}
+
 .main-block__body {
   padding: 184px 0 191px 0;
   position: relative;
@@ -424,6 +426,38 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.1px;
+}
+
+/*------ PRACTICE ------*/
+
+.practice {
+}
+.practice__container {
+}
+.practice__header {
+  margin: 0px 0px 45px 0px;
+}
+.header-block {
+}
+.header-block__title {
+}
+.header-block__sub-title {
+}
+.practice__body {
+}
+.practice__column {
+}
+.practice__item {
+}
+.item-practice {
+}
+.item-practice__link {
+}
+.item-practice__title {
+}
+.tem-practice__text {
+}
+.tem-practice__image {
 }
 
 /*------ FOOTER ------*/
