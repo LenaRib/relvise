@@ -431,6 +431,7 @@ body {
 /*------ PRACTICE ------*/
 
 .practice {
+  padding: 125px 0px 80px 0px;
 }
 .practice__container {
 }
@@ -444,18 +445,41 @@ body {
 .header-block__sub-title {
 }
 .practice__body {
+  margin: 0px -15px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .practice__column {
+  padding: 0 15px;
+  flex: 0 1 25%;
 }
 .practice__item {
 }
 .item-practice {
+  background-color: #fff;
+}
+.item-practice__content {
+  padding: 30px;
 }
 .item-practice__link {
+  color: inherit;
+}
+.item-practice__link:hover {
+  text-decoration: underline;
+}
+.item-practice__link:not(:last-child) {
+  margin: 0 0 15px 0;
+  display: inline-block;
 }
 .item-practice__title {
+  letter-spacing: 0.1px;
+  font-size: 15px;
+  line-height: 150%;
+  font-weight: 700;
 }
 .tem-practice__text {
+  color: #737373;
+  line-height: 142%;
 }
 .tem-practice__image {
 }
