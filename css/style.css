@@ -445,7 +445,7 @@ body {
 .header-block__sub-title {
 }
 .practice__body {
-  margin: 0px -15px;
+  margin: 0px -20px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -477,11 +477,13 @@ body {
   line-height: 150%;
   font-weight: 700;
 }
-.tem-practice__text {
+.item-practice__text {
   color: #737373;
   line-height: 142%;
 }
-.tem-practice__image {
+.item-practice__image {
+  padding: 0px 0px 60% 0px;
+  display: block;
 }
 
 /*------ FOOTER ------*/
