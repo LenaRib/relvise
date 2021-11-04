@@ -305,6 +305,11 @@ body {
     flex: 0 1 50%;
   }
 }
+@media (max-width: 992px) {
+  .services__column:last-child {
+    flex: 0 1 100%;
+  }
+}
 
 @media (min-width: 670px) {
   .services__column {
@@ -453,13 +458,23 @@ body {
   padding: 0 15px;
   flex: 0 1 25%;
 }
+
+@media (max-width: 1040px) {
+  .practice__column {
+    flex: 0 1 50%;
+  }
+}
 .practice__item {
 }
 .item-practice {
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .item-practice__content {
   padding: 30px;
+  flex: 1 1 auto;
 }
 .item-practice__link {
   color: inherit;
