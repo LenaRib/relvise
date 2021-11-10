@@ -719,9 +719,29 @@ body {
 }
 .header-block__sub-title {
 }
+
 .getintouch__items {
-  display: flex;
-  align-items: center;
+  margin: 0px -15px;
+}
+@media (min-width: 992px) {
+  .getintouch__items {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+  }
+}
+@media (max-width: 992px) {
+  .getintouch__header {
+    margin: 0px 0px 50px 0px;
+  }
+  .getintouch {
+    padding: 50px 0px;
+  }
+}
+@media (max-width: 767px) {
+  .getintouch__header {
+    margin: 0px 0px 30px 0px;
+  }
 }
 .getintouch__item {
   flex: 0 1 33.333%;
@@ -758,7 +778,25 @@ body {
   color: #252b42;
   font-weight: 700;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 150%;
+}
+.item-getintouch_active {
+  background: #252b42;
+  color: #fff;
+  padding: 80px 20px;
+}
+@media (max-width: 992px) {
+  .item-getintouch_active {
+    padding: 50px 15px;
+  }
+}
+.item-getintouch_active .item-getintouch__button {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.item-getintouch_active .item-getintouch__button:hover {
+  background-color: #ff7b47;
+  color: #fff;
 }
 .item-getintouch__button {
   border: 1px solid #ff7b47;
@@ -773,10 +811,14 @@ body {
   padding: 5px 20px;
   font-size: 14px;
   font-weight: 600;
+  transition: all 0.3s ease 0s;
 }
 .item-getintouch__button:hover {
   background-color: #ff7b47;
+  border: 1px solid #ff7b47;
+  color: #fff;
 }
+
 /*------ FOOTER ------*/
 
 .footer {
