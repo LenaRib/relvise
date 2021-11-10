@@ -1,4 +1,4 @@
-:man_office_worker:[Relvise](https://lenarib.github.io/relvise/) landing page with adaptive layout, BEM
+:man_office_worker:[Relvise](https://lenarib.github.io/relvise/) landing page with adaptive layout, BEM, HTML5, CSS3
 
 :point_down:Link to Figma maket bellow
 
