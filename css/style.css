@@ -921,13 +921,13 @@ body {
   margin: 0px 0px 12px 0px;
 }
 .contacts-footer__item_phone {
-  background: url(img/footer/01.svg) 0 0 no-repeat;
+  background: url(../img/footer/01.svg) 0 0 no-repeat;
 }
 .contacts-footer__item_map {
-  background: url(img/footer/02.svg) 0 0 no-repeat;
+  background: url(../img/footer/02.svg) 0 0 no-repeat;
 }
 .contacts-footer__item_email {
-  background: url(img/footer/03.svg) 0 0 no-repeat;
+  background: url(../img/footer/03.svg) 0 0 no-repeat;
 }
 .footer__bottom {
   padding: 25px 0px;
