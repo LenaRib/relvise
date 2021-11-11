@@ -214,7 +214,7 @@ body {
   color: white;
 }
 .main-block__button_orange:hover {
-  background-color: white;
+  background: white;
   color: #ff7b47;
 }
 .main-block__button_border {
@@ -901,8 +901,6 @@ body {
 }
 .menu-footer__link:hover {
   text-decoration: underline;
-}
-.footer__contacts {
 }
 .contacts-footer {
   display: flex;
